@@ -5,7 +5,7 @@
 ```js
 sourceUrl = ""                           // 源青龙面板的URL
 sourceClientID = ""                      // 源青龙面板的client_id
-sourceClientSecret = ""				 // 源青龙面板的client_secret
+sourceClientSecret = ""                  // 源青龙面板的client_secret
 
 distUrl = ""                             // 目标青龙面板的URL
 distClientID = ""                        // 目标青龙面板的client_id
