@@ -19,13 +19,16 @@ type Option struct {
 }
 
 func main() {
-	const sourceUrl = '';
-	const sourceClientID = '';
-	const sourceClientSecret = ''
+	const (
+		sourceUrl      = ""
+		sourceClientID = ""
+		sourceClientSecret = ""
 
-	const distUrl = '';
-	const distClientID = ''
-	const distClientSecret = ''
+		distUrl          = ""
+		distClientID     = ""
+		distClientSecret = ""
+	)
+	
 
 	sourceToken := getToken(sourceUrl, sourceClientID, sourceClientSecret)
 	var cookies []string
