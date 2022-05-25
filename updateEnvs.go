@@ -20,15 +20,14 @@ type Option struct {
 
 func main() {
 	const (
-		sourceUrl      = ""
-		sourceClientID = ""
+		sourceUrl          = ""
+		sourceClientID     = ""
 		sourceClientSecret = ""
-
+		
 		distUrl          = ""
 		distClientID     = ""
 		distClientSecret = ""
 	)
-	
 
 	sourceToken := getToken(sourceUrl, sourceClientID, sourceClientSecret)
 	var cookies []string
